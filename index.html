@@ -9,6 +9,7 @@
 </head>
 <body>
 	<div class="container">
+        
 		<div class="Card animate__animated animate__zoomIn animate__faster">
 			<div class="ilus-c">
 				<svg width="80" height="106" viewBox="0 0 117 106" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,6 +117,29 @@
 			 </div>	
 			<h3 class="title">Grupo de usuarios</h3>
 			<h4 class="subtitle">Administrá los niveles de seguridad para la operativa de cada usuario.</h4>
+		</div>
+		<div class="code">
+			<code>
+				<h4 class="title-code">Animación del path en el estado hover</h4>
+				.CardB:hover .icon path{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;animation: location 1.2s ease-in-out infinite;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;transform-origin: bottom;<br>
+
+					}
+					<br>
+					@keyframes location {<br>
+						&nbsp;&nbsp;0%{<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;transform: translateY(15px);<br>
+						&nbsp;&nbsp;}<br>
+						&nbsp;&nbsp;50%{<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;transform: translateY(-15px);<br>
+						&nbsp;&nbsp;}<br>
+						&nbsp;&nbsp;100%{<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;transform: translateY(15px);<br>
+						&nbsp;&nbsp;}<br>
+			
+					}
+			</code>
 		</div>
 	</div>
 	
